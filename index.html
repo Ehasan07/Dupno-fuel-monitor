@@ -33,6 +33,7 @@
         nav ul {
             list-style: none;
             padding: 0;
+            margin: 0;
         }
         nav ul li {
             display: inline;
@@ -60,6 +61,7 @@
             background-color: white;
             border: 1px solid #ddd;
             border-radius: 5px;
+            padding: 20px;
         }
         .features h2, .how-it-works h2, .testimonials h2 {
             color: #e65125;
@@ -73,6 +75,7 @@
             background-color: #045cb4;
             color: white;
             text-align: center;
+            padding: 20px;
         }
         .contact form input, .contact form textarea {
             margin: 10px 0;
@@ -104,6 +107,54 @@
         }
         footer p {
             margin: 5px 0;
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            .hero h1 {
+                font-size: 28px;
+            }
+            .hero {
+                padding: 30px 10px;
+            }
+            .section {
+                padding: 20px 10px;
+            }
+            .features, .how-it-works, .testimonials {
+                padding: 15px;
+            }
+            .features .icon, .how-it-works .icon, .testimonials .icon {
+                font-size: 30px;
+            }
+            .contact form input, .contact form textarea {
+                max-width: 100%;
+            }
+            footer .social-icons a {
+                font-size: 18px;
+                margin: 5px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 24px;
+            }
+            .hero p {
+                font-size: 14px;
+            }
+            .features, .how-it-works, .testimonials {
+                font-size: 14px;
+            }
+            .contact h2 {
+                font-size: 20px;
+            }
+            .contact form button {
+                padding: 8px 15px;
+            }
         }
     </style>
 </head>
