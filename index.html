@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dupno</title>
+
+    <!-- Font Links -->
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
+    <link href="https://lipighor.com/AdorNoirrit.html" rel="stylesheet">
+
+    <!-- Font Awesome Link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- CSS Styling -->
+    <style>
+        body {
+            font-family: 'Bai Jamjuree', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3, p {
+            font-family: 'Ador Noirrit', sans-serif;
+        }
+        header {
+            background-color: #045cb4;
+            padding: 10px 0;
+            color: white;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #1c75bc;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 36px;
+        }
+        .section {
+            padding: 40px 20px;
+            margin: 20px 0;
+        }
+        .features, .how-it-works, .testimonials {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .features h2, .how-it-works h2, .testimonials h2 {
+            color: #e65125;
+        }
+        .features .icon, .how-it-works .icon, .testimonials .icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+            color: #045cb4;
+        }
+        .contact {
+            background-color: #045cb4;
+            color: white;
+            text-align: center;
+        }
+        .contact form input, .contact form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .contact form button {
+            background-color: #e65125;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #1c75bc;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer .social-icons {
+            margin: 10px 0;
+        }
+        footer .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-star"></i> Features</a></li>
+                <li><a href="#"><i class="fas fa-cogs"></i> How It Works</a></li>
+                <li><a href="#"><i class="fas fa-comments"></i> Testimonials</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1><i class="fas fa-gas-pump"></i> Welcome to Duono Fuel Monitoring System</h1>
+        <p>Your ultimate solution for fuel monitoring and management.</p>
+        <button><i class="fas fa-play-circle"></i> Get Started</button>
+    </div>
+
+    <!-- Features Section -->
+    <div class="section features">
+        <h2><i class="fas fa-star"></i> Features</h2>
+        <div>
+            <i class="fas fa-tachometer-alt icon"></i>
+            <p>Real-time fuel monitoring.</p>
+        </div>
+        <div>
+            <i class="fas fa-map-marker-alt icon"></i>
+            <p>Location tracking.</p>
+        </div>
+        <div>
+            <i class="fas fa-battery-half icon"></i>
+            <p>Battery health status.</p>
+        </div>
+    </div>
+
+    <!-- How It Works Section -->
+    <div class="section how-it-works">
+        <h2><i class="fas fa-cogs"></i> How It Works</h2>
+        <div>
+            <i class="fas fa-car icon"></i>
+            <p>Install the device in your vehicle.</p>
+        </div>
+        <div>
+            <i class="fas fa-wifi icon"></i>
+            <p>Connect to the network.</p>
+        </div>
+        <div>
+            <i class="fas fa-chart-line icon"></i>
+            <p>Monitor and analyze fuel consumption.</p>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="section testimonials">
+        <h2><i class="fas fa-comments"></i> Testimonials</h2>
+        <div>
+            <i class="fas fa-user-circle icon"></i>
+            <p>"Excellent service and accurate monitoring!"</p>
+        </div>
+        <div>
+            <i class="fas fa-user-circle icon"></i>
+            <p>"Highly recommended for fleet management."</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section contact">
+        <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required><br>
+            <input type="email" placeholder="Your Email" required><br>
+            <textarea placeholder="Your Message" required></textarea><br>
+            <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2024 Dupno Fuel Monitoring System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
